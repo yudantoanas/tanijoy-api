@@ -1,0 +1,24 @@
+package config
+
+const (
+    // Base Url
+	BASE_URL = "your_base_url"
+
+	// Database
+	USERNAME = "your_username"
+	PASSWORD = "your_password"
+	DB_NAME  = "your_dbname"
+	DB_PORT  = "your_dbport"
+
+	// S3
+	AWS_REGION              = "your_aws_region"
+	AWS_BUCKET              = "your_aws_bucket"
+	AWS_ACCESS_KEY_ID       = "your_aws_access_key"
+    AWS_SECRET_ACCESS_KEY   = "your_aws_secret_key"
+    AWS_SESSION_TOKEN       = "your_aws_token"
+
+	// Mailgun
+	MAILGUN_DOMAIN = "your_mailgun_domain"
+	API_SECRET_KEY = "your_api_private_key"
+	PUBLIC_KEY     = "your_api_public_key"
+)
